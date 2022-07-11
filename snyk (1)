@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-EVENTSOURCE-2823375:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-MINIMIST-2429795:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-PROMPTS-1729737:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-EJS-2803307:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-NTHCHECK-1586032:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-ASYNC-2441827:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-NODEFORGE-2430339:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-NODEFORGE-2430341:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-NODEFORGE-2430337:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-CSSWHAT-1298035:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-DICER-2311764:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-FORMIDABLE-2838956:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-NWSAPI-2841516:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+  SNYK-JS-GOT-2932019:
+    - '*':
+        reason: No fix available
+        expires: 2023-01-01T00:00:00.000Z
+patch: {}
