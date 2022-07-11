@@ -1,0 +1,45 @@
+{
+  "name": "@workday/drive-assets-helpers",
+  "version": "6.0.14",
+  "author": "PT Drive Team",
+  "description": "A module for assisting with item list use cases.",
+  "license": "SEE LICENSE IN LICENSE",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://urldefense.proofpoint.com/v2/url?u=https-3A__ghe.megaleo.com_cban_drive-2Dweb&d=DwIGAg&c=wwDYKmuffy0jxUGHACmjfA&r=Z4snTuPRbNSFz_MzSXpdtQ&m=BCEZnYa_pzgmN8afP5XDdRsdivEJnvhDxcIF0K0lvNRu80B4z7EKtU9jlQNZj81S&s=h5W0-_RyGQcJVpHzfW0orQRFIzXFY98gR_5sV4--7FQ&e= "
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/es6/index.js",
+  "types": "dist/es6/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "clean:deep": "yarn clean && rimraf node_modules",
+    "build": "./build.sh && yarn depcheck",
+    "depcheck": "node ../../../scripts/ci/check-dependencies-exist.js"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.1.1",
+    "@workday/drive-component-localizer": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@workday/drive-asset-test": "^9.0.1",
+    "@workday/drive-service-provider": "^29.0.2",
+    "cross-env": "^7.0.0",
+    "dotenv-cli": "^5.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "rimraf": "^3.0.1",
+    "ts-node": "^10.4.0",
+    "typescript": "4.4.3"
+  },
+  "peerDependencies": {
+    "@workday/drive-service-provider": "^22.0.2"
+  }
+}
